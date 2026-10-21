@@ -4,9 +4,10 @@ import { Topo } from './topo/topo';
 import { Rodape } from './rodape/rodape';
 import { Menu } from './menu/menu';
 import { BarraBusca } from './barra-busca/barra-busca';
+import { FormsModule } from '@angular/forms'; 
 
 @Component({
-  imports: [RouterOutlet, Topo, Rodape, Menu, BarraBusca],
+  imports: [RouterOutlet, Topo, Rodape, Menu, BarraBusca, FormsModule],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',

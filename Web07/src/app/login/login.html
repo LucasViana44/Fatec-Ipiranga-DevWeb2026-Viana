@@ -1,1 +1,18 @@
-<p>login works!</p>
+<form>
+    <label for="email">E-mail:</label>
+<input
+type="email"
+name="email"
+[(ngModel)]="email"
+>
+
+<label for="senha">Senha:</label>
+<input
+type="password"
+id="senha"
+name="senha"
+[(ngModel)]="senha"
+>
+
+<button type="submit">Entrar</button>
+</form>

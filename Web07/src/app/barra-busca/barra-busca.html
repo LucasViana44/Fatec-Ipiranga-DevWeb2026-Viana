@@ -1,1 +1,6 @@
-<p>barra-busca works!</p>
+<input 
+type="text"
+[(ngModel)]="busca"
+(ngModelChange)="salvarBusca()"
+placeholder="Buscar produtos..."
+>

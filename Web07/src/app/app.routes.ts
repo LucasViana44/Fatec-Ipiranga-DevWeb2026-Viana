@@ -6,5 +6,6 @@ import { Login } from './login/login';
 export const routes: Routes = [
 {path: 'cadastro', component: Cadastro},
 {path: 'login', component: Login},
+{path: 'home', component: Home},
 {path: '', redirectTo: 'home', pathMatch: 'full' },
 ];
