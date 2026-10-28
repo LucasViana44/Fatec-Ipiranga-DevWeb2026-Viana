@@ -20,4 +20,7 @@ export class Cesta {
       0
     );
   }
+  removerItem(id: number): void {
+    this.itens = this.itens.filter(item => item.id !== id); 
+  }
 }

@@ -1,0 +1,9 @@
+<div *ngFor="let item of cesta.itens">
+  <span>{{ item.nome }}</span>
+  <span>R$ {{ item.preco }}</span>
+  <span>Quantidade: {{ item.quantidade }}</span>
+
+  <button (click)="removerItem(item.id)">X</button>
+</div>
+
+<p>Total: R$ {{ cesta.calcularTotal() }}</p>
